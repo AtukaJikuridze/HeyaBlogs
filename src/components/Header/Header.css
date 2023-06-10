@@ -1,0 +1,86 @@
+header {
+  height: 600px;
+  position: relative;
+}
+header:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: brightness(60%);
+  background-image: url(../../images/Header.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+header .header-content {
+  position: relative;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px 50px;
+}
+header .header-content .header-input-main {
+  background-color: #fff;
+  width: 750px;
+  height: 60px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+header .header-content .header-input-main .input-search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+header .header-content .header-input-main .input-search svg {
+  margin-right: 10px;
+}
+header .header-content .header-input-main .input-search input {
+  border: 0px;
+  font-size: 15px;
+  outline: none;
+  width: 90%;
+}
+header .header-content .header-input-main button {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1565d8;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+header .header-content .tags-main {
+  display: flex;
+  align-items: center;
+}
+header .header-content .tags-main .tag {
+  margin-left: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #ffffff;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 4px;
+  padding: 5px 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+header .header-content .tags-main .tag:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+header .header-content .tags-main .tag h3 {
+  font-size: 15px;
+}/*# sourceMappingURL=Header.css.map */
